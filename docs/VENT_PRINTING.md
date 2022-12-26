@@ -1,8 +1,8 @@
 ## Vent Printing
 
-- Currently I have been printing with [3DFuel Pro PLA+](https://www.3dfuel.com/products/pro-pla-midnight-black-1-75mm) for it's heat resistance ([85C or 185F](https://cdn.shopify.com/s/files/1/0027/5339/6848/files/3D870-charts-min_600x600.jpg?v=1614282114)). I have not had a chance to test this filament with the furnace on (it is currently summer). If anyone has experience with this sort of thing please open an issue to discuss.
 - I would recommend printing the louvers with 100% infill. I've printed everything else with 23% infill.
 - I put down a layer of glue stick everywhere that I will be printing, this does a pretty good job for bed adhesion.
+- With the thin long layers on the electronics enclosure and lid I've added "brim ears" when slicing (with SuperSlicer) and this has resolved warping/curling with ABS.
 
 Here is the correct orientation to print things. Nothing in this picture requires supports, as long as bridging works fine on the inside of the female end of the louvers. What is not pictured includes: four levers (for 4x10) and the vent top.
 ![4x10-on-build-plate](https://user-images.githubusercontent.com/4724577/184463112-e18aceac-d279-469a-ad77-89d0d91e50bf.jpg)
@@ -23,4 +23,4 @@ The next time I print the levers I will add more pictures, in general the proces
 
 ### Vent Top
 - The vent top should be printed upside down.
-- Supports are needed for the corner tabs and any overhangs that are parallel with the print bed, like the overhangs that the bottom of the M5 screw head presses against when installed.
+- Supports are needed for the corner tabs and any overhangs that are parallel with the print bed, like the overhangs that the bottom of the M5 screw head presses against when installed. These models will soon move to using sacrificial layers where possible, so supports for the last sentence may not be needed.

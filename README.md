@@ -33,15 +33,11 @@ This project contains most everything needed to 3D print, assemble, and flash an
 
 ## Important Recommendations
 - It is recommended that you pair this vent with a system that can [measure and monitor Delta T](https://www.youtube.com/watch?v=_pD-rRCNv8k) (the difference in HVAC return air temperature and supply air temperature). Check out the [Delta Tango](https://github.com/BrobstonCreations/delta-tango) project.
-- It is recommended to have a [Static Pressure Regulating Damper](https://www.zonefirst.com/product/sprddd/) installed between the return air plenum and the supply air plenum. This regulating damper acts as a bypass and will open or close relative to the backpressure change created by opening or closing vents. This will relieve the majority of the back pressure that is created by closing vents and will help to ensure the longevity of the blower.
-- If the previous recommendation is not possible, it may be possible to partially mitigate the static pressure issue by only closing vents (that are in a closed state) to something like 80% closed, when the number of closed vents is greater than, say... 75%. This will be a feature implemented in [mqtt-hvac-vent-control](https://github.com/TonyBrobston/mqtt-hvac-vent-control) in the future.
+- It is recommended to install a [Static Pressure Regulating Damper](https://www.zonefirst.com/product/sprddd/), which goes between the return air plenum and the supply air plenum. This damper acts as a bypass and will open or close relative to the backpressure change created by opening and closing vents. This will relieve the majority of the back pressure that is created by closing vents and will help to ensure the longevity of the blower.
 
 ## Future Features
 - Create 8x14 variation.
-- Experiment with adding heat set inserts rather than threading into plastic.
 - Fix a small bug where ESPHome's Servo Position does not match up with the Servo's Potentiometer's position after physically moving the vent's louvers.
-- Test vents when furnace is heating.
-- Integrate a lever to manually open/close vent louvers. (currently in development)
 - Investigate power saving options for battery pack use.
 - Add functionality to open vent if the central vent control system goes offline.
 - Experiment with 12x12 vent.
